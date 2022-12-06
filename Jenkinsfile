@@ -4,8 +4,8 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Build Starts!'
-                bat "\"C:/Program Files/dotnet/dotnet.exe\" restore \"${workspace}/JenkinsSampleProject.cs\""
-                bat "\"C:/Program Files/dotnet/dotnet.exe\" build \"${workspace}/JenkinsSampleProject.cs\""
+                //bat "\"C:/Program Files/dotnet/dotnet.exe\" restore \"${workspace}/JenkinsSampleProject.cs\""
+                //bat "\"C:/Program Files/dotnet/dotnet.exe\" build \"${workspace}/JenkinsSampleProject.cs\""
                 echo 'Build Ends'
             }
         }
